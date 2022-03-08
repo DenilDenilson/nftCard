@@ -12,5 +12,8 @@
     "JS"
   ],
   "author": "DenilDenilson",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  }
 }
