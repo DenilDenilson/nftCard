@@ -15,7 +15,7 @@ This is a solution to the NFT preview card component challenge on Frontend Mento
 
 
 # My process
-###Build with
+### Build with
 - Html5
 - Html Semantic
 - Sass & Css
@@ -26,7 +26,7 @@ This is a solution to the NFT preview card component challenge on Frontend Mento
 - Webpack loaders
 - Webpack plugins
 
-###Highlight code
+### Highlight code
 Código que evita conflictos con el hover en dispositivos móbiles
 
 	@media (hover: hover) {
@@ -36,6 +36,6 @@ Código que evita conflictos con el hover en dispositivos móbiles
 			}
 		}
 	}
-#Author
+# Author
 
 @denildenilson
