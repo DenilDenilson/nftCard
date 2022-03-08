@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #0d192b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .all_container {
+  background-color: #14253d;
+  padding: 12px;
+  border-radius: 20px;
+  width: 328px;
+  height: 540px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .all_container .nft_content-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 440px;
+}
+
+body .all_container .nft_content-info .img_content {
+  height: 300px;
+  width: 300px;
+  background-image: url("../../images/image-equilibrium.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  margin: auto;
+  margin-top: 0;
+}
+
+body .all_container .nft_content-info .nft_title {
+  color: white;
+  font-weight: 400;
+}
+
+body .all_container .nft_content-info .nft_description {
+  color: #8bacda;
+  font-weight: 300;
+}
+
+body .all_container .nft_content-info .price-time_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+
+body .all_container .nft_content-info .price-time_section .ethereum-info_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .all_container .nft_content-info .price-time_section .ethereum-info_content .ethereum-icon {
+  width: 11px;
+  height: 18px;
+  background-image: url("../../images/icon-ethereum.svg");
+  background-position: center;
+}
+
+body .all_container .nft_content-info .price-time_section .ethereum-info_content .ethereum-price {
+  color: #00fff7;
+  font-weight: 400;
+  margin-left: 4px;
+}
+
+body .all_container .nft_content-info .price-time_section .time-info_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .all_container .nft_content-info .price-time_section .time-info_content .time-icon {
+  width: 14px;
+  height: 14px;
+  background-image: url("../../images/icon-clock.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+body .all_container .nft_content-info .price-time_section .time-info_content .time-description {
+  color: #8bacda;
+  margin-left: 4px;
+}
+
+body .all_container .footer_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 12px;
+  border-top: 1px solid #2f415b;
+  margin-top: 24px;
+}
+
+body .all_container .footer_content .author-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-image: url("../../images/image-avatar.png");
+  background-position: center;
+  background-size: cover;
+  border: 2px solid white;
+}
+
+body .all_container .footer_content .author-description {
+  margin-left: 8px;
+  color: white;
+  font-weight: 300;
+}
+
+body .all_container .footer_content .author-description span {
+  color: #8bacda;
+}
+/*# sourceMappingURL=styles.css.map */

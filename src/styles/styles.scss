@@ -1,0 +1,129 @@
+@import 'variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    font-family: $font-Outfit;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: $Very-dark-blue_main-BG;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .all_container {
+        background-color: $Very-dark-blue_card-BG;
+        padding: 12px;
+        border-radius: 20px;
+        width: 328px;
+        height: 540px;
+        display: flex;
+        flex-direction: column;
+        
+
+        .nft_content-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 440px;
+
+            .img_content {
+                height: 300px;
+                width: 300px;
+                background-image: url('../../images/image-equilibrium.jpg');
+                background-position: center;
+                background-size: cover;
+                border-radius: 16px;
+                margin: auto;
+                margin-top: 0;
+            }
+
+            .nft_title {
+                color: $White;
+                font-weight: 400;
+            }
+
+            .nft_description {
+                color: $Soft-blue;
+                font-weight: 300;
+            }
+
+            .price-time_section {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 40px;
+
+                .ethereum-info_content {
+                    display: flex;
+                    align-items: center;
+
+                    .ethereum-icon {
+                        width: 11px;
+                        height: 18px;
+                        background-image: url('../../images/icon-ethereum.svg');
+                        background-position: center;
+                    }
+
+                    .ethereum-price {
+                        color: $Cyan;
+                        font-weight: 400;
+                        margin-left: 4px;
+                    }
+                }
+                
+                .time-info_content {
+                    display: flex;
+                    align-items: center;
+
+                    .time-icon {
+                        width: 14px;
+                        height: 14px;
+                        background-image: url('../../images/icon-clock.svg');
+                        background-position: center;
+                        background-size: cover;
+                    }
+
+                    .time-description {
+                        color: $Soft-blue;
+                        margin-left: 4px;
+                    }
+                }
+            }
+        }
+
+        .footer_content {
+            display: flex;
+            //justify-content: space-between;
+            align-items: center;
+            padding-top: 12px;
+            border-top: 1px solid $Very-dark-blue_line;
+            margin-top: 24px;
+
+            .author-img {
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                background-image: url('../../images/image-avatar.png');
+                background-position: center;
+                background-size: cover;
+                border: 2px solid $White;
+            }
+
+            .author-description {
+                margin-left: 8px;
+                color: $White;
+                font-weight: 300;
+
+                span {
+                    color: $Soft-blue;
+                }
+            }
+        }
+    }
+}
