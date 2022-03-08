@@ -2,7 +2,15 @@
 This is a solution to the NFT preview card component challenge on Frontend Mentor.
 
 # Table of content
-[TOC]
+- [Table of content](#table-of-content)
+- [Overview](#overview)
+    - [Mobile](#mobile)
+    - [Desktop](#desktop)
+    - [Links](#links)
+- [My process](#my-process)
+    - [Build with](#build-with)
+    - [Highlight code](#highlight-code)
+- [Author](#author)
 
 # Overview
 ### Mobile
